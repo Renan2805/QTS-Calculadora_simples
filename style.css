@@ -1,0 +1,50 @@
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+
+  min-width: 50vw;
+  max-width: 60vw;
+  margin: 0 auto;
+}
+
+#form input {
+  padding: .5rem;
+  border: 0;
+  border-bottom: 1px solid gray;
+}
+
+#form input:focus {
+  outline: none;
+}
+
+#calc-btn {
+  border: 0;
+  margin: 0;
+  padding: .5rem;
+
+  border-radius: 5px;
+  
+  font-weight: bold;
+  
+  -webkit-animation: 3s linear;
+          animation: 3s linear;
+}
+
+#calc-btn:hover {
+  background: #71ff71;
+  color: white;
+}
